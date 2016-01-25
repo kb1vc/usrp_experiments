@@ -79,7 +79,7 @@ int UHD_SAFE_MAIN(int argc, char *argv[]){
 
     //print the help message
     if (vm.count("help")){
-        std::cout << boost::format("B200 test to show RX to TX LO Crosstalk  (based on examples/tx_waveforms) %s") % desc << std::endl;
+        std::cout << boost::format("Test to show RX to TX LO Crosstalk  (based on examples/tx_waveforms) -- especially for the B2xx %s") % desc << std::endl;
         return ~0;
     }
 
